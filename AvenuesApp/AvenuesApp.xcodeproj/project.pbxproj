@@ -15,6 +15,7 @@
 		8BAF93B92B7C0DD1008C4782 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */; };
 		8BAF93BC2B7C1A44008C4782 /* AvenuesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93BB2B7C1A44008C4782 /* AvenuesDataModel.swift */; };
 		8BCDCE312B813C25005159BE /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCDCE302B813C25005159BE /* GooglePlaces */; };
+		8BD4AA7B2B814166008F5F70 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4AA7A2B814166008F5F70 /* ProfileViewModel.swift */; };
 		8BE3B17D2B7F8EB400A8819E /* AvenueListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B17C2B7F8EB400A8819E /* AvenueListItemView.swift */; };
 		8BE3B17F2B7F8EBF00A8819E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B17E2B7F8EBF00A8819E /* MapView.swift */; };
 		8BE3B1822B7FF22D00A8819E /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1812B7FF22D00A8819E /* GoogleMaps */; };
@@ -45,6 +46,7 @@
 		8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8BAF93BA2B7C11EB008C4782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BAF93BB2B7C1A44008C4782 /* AvenuesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenuesDataModel.swift; sourceTree = "<group>"; };
+		8BD4AA7A2B814166008F5F70 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		8BE3B17C2B7F8EB400A8819E /* AvenueListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenueListItemView.swift; sourceTree = "<group>"; };
 		8BE3B17E2B7F8EBF00A8819E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		8BE3B18B2B7FFA8E00A8819E /* GoogleMapsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsProvider.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 		8BE3B1A62B80DD3E00A8819E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8BD4AA7A2B814166008F5F70 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				8BE3B1A82B80DF4300A8819E /* ProfileView.swift in Sources */,
 				8BAF93B52B7C0D77008C4782 /* ApiManagerType.swift in Sources */,
 				8BE3B17F2B7F8EBF00A8819E /* MapView.swift in Sources */,
+				8BD4AA7B2B814166008F5F70 /* ProfileViewModel.swift in Sources */,
 				8BE3B1A12B80D86200A8819E /* LoginView.swift in Sources */,
 				8BAF939B2B7C0AFC008C4782 /* AvenuesAppApp.swift in Sources */,
 				8BE3B1952B80BF8400A8819E /* RegistrationView.swift in Sources */,

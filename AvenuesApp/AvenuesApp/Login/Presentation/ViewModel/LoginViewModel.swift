@@ -20,7 +20,6 @@ class LoginViewModel: ObservableObject {
         case failure(String)
     }
     
-    private var cancellables: Set<AnyCancellable> = []
     
     func loginUser(completion: () -> Void) {
         guard isValidEmail(email) && isValidPassword() else {

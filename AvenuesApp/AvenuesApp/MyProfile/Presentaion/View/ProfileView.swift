@@ -9,11 +9,10 @@ import SwiftUI
 
 
 struct ProfileView: View {
-    @Binding var presentSideMenu: Bool
     
-    @AppStorage("userName") private var userName: String = ""
-    @AppStorage("userAge") private var userAge: Int = 00
-    @AppStorage("userEmail") private var userEmail: String = ""
+    
+    @Binding var presentSideMenu: Bool
+    @ObservedObject var viewModel: ProfileViewModel = ProfileViewModel()
     
     var body: some View {
         VStack(alignment: .leading, spacing: 30) {
@@ -22,7 +21,7 @@ struct ProfileView: View {
                 Text("Name:")
                     .font(.headline)
                     .foregroundColor(.blue)
-                Text("\(userName)")
+                Text("\(viewModel.name)")
                     .font(.title)
                     .foregroundColor(.black)
             }
@@ -31,7 +30,7 @@ struct ProfileView: View {
                 Text("Email:")
                     .font(.headline)
                     .foregroundColor(.blue)
-                Text("\(userEmail)")
+                Text("\(viewModel.email)")
                     .font(.title)
                     .foregroundColor(.black)
             }
@@ -40,13 +39,16 @@ struct ProfileView: View {
                 Text("Age:")
                     .font(.headline)
                     .foregroundColor(.blue)
-                Text("\(userAge)")
+                Text("\(viewModel.age)")
                     .font(.title)
                     .foregroundColor(.black)
             }
             Spacer()
         }
         .padding()
+        .onAppear(perform: {
+            viewModel.retrieveUserInfo()
+        })
     }
     
     var headerView: some View {
