@@ -10,11 +10,11 @@
 		8BAF939B2B7C0AFC008C4782 /* AvenuesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF939A2B7C0AFC008C4782 /* AvenuesAppApp.swift */; };
 		8BAF939D2B7C0AFC008C4782 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF939C2B7C0AFC008C4782 /* HomeView.swift */; };
 		8BAF939F2B7C0AFE008C4782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAF939E2B7C0AFE008C4782 /* Assets.xcassets */; };
-		8BAF93A22B7C0AFE008C4782 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAF93A12B7C0AFE008C4782 /* Preview Assets.xcassets */; };
 		8BAF93B52B7C0D77008C4782 /* ApiManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B42B7C0D77008C4782 /* ApiManagerType.swift */; };
 		8BAF93B72B7C0DAE008C4782 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B62B7C0DAE008C4782 /* ApiManager.swift */; };
 		8BAF93B92B7C0DD1008C4782 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */; };
 		8BAF93BC2B7C1A44008C4782 /* AvenuesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93BB2B7C1A44008C4782 /* AvenuesDataModel.swift */; };
+		8BCDCE312B813C25005159BE /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 8BCDCE302B813C25005159BE /* GooglePlaces */; };
 		8BE3B17D2B7F8EB400A8819E /* AvenueListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B17C2B7F8EB400A8819E /* AvenueListItemView.swift */; };
 		8BE3B17F2B7F8EBF00A8819E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B17E2B7F8EBF00A8819E /* MapView.swift */; };
 		8BE3B1822B7FF22D00A8819E /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1812B7FF22D00A8819E /* GoogleMaps */; };
@@ -22,7 +22,6 @@
 		8BE3B1862B7FF22D00A8819E /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1852B7FF22D00A8819E /* GoogleMapsCore */; };
 		8BE3B1882B7FF22D00A8819E /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1872B7FF22D00A8819E /* GoogleMapsM4B */; };
 		8BE3B18C2B7FFA8E00A8819E /* GoogleMapsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B18B2B7FFA8E00A8819E /* GoogleMapsProvider.swift */; };
-		8BE3B18F2B800D3200A8819E /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B18E2B800D3200A8819E /* GooglePlaces */; };
 		8BE3B1952B80BF8400A8819E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1942B80BF8400A8819E /* RegistrationView.swift */; };
 		8BE3B1982B80C07B00A8819E /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1972B80C07B00A8819E /* RegistrationViewModel.swift */; };
 		8BE3B19F2B80D7ED00A8819E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B19E2B80D7ED00A8819E /* LoginViewModel.swift */; };
@@ -41,7 +40,6 @@
 		8BAF939A2B7C0AFC008C4782 /* AvenuesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenuesAppApp.swift; sourceTree = "<group>"; };
 		8BAF939C2B7C0AFC008C4782 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8BAF939E2B7C0AFE008C4782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BAF93A12B7C0AFE008C4782 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BAF93B42B7C0D77008C4782 /* ApiManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManagerType.swift; sourceTree = "<group>"; };
 		8BAF93B62B7C0DAE008C4782 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -71,7 +69,7 @@
 				8BE3B1822B7FF22D00A8819E /* GoogleMaps in Frameworks */,
 				8BE3B1862B7FF22D00A8819E /* GoogleMapsCore in Frameworks */,
 				8BE3B1882B7FF22D00A8819E /* GoogleMapsM4B in Frameworks */,
-				8BE3B18F2B800D3200A8819E /* GooglePlaces in Frameworks */,
+				8BCDCE312B813C25005159BE /* GooglePlaces in Frameworks */,
 				8BE3B1842B7FF22D00A8819E /* GoogleMapsBase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,14 +107,6 @@
 				8BAF93B32B7C0D63008C4782 /* NetworkLayer */,
 			);
 			path = AvenuesApp;
-			sourceTree = "<group>";
-		};
-		8BAF93A02B7C0AFE008C4782 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8BAF93A12B7C0AFE008C4782 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8BAF93A82B7C0B3F008C4782 /* Home */ = {
@@ -400,7 +390,6 @@
 				8BAF939A2B7C0AFC008C4782 /* AvenuesAppApp.swift */,
 				8BE3B18B2B7FFA8E00A8819E /* GoogleMapsProvider.swift */,
 				8BAF939E2B7C0AFE008C4782 /* Assets.xcassets */,
-				8BAF93A02B7C0AFE008C4782 /* Preview Content */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -426,7 +415,7 @@
 				8BE3B1832B7FF22D00A8819E /* GoogleMapsBase */,
 				8BE3B1852B7FF22D00A8819E /* GoogleMapsCore */,
 				8BE3B1872B7FF22D00A8819E /* GoogleMapsM4B */,
-				8BE3B18E2B800D3200A8819E /* GooglePlaces */,
+				8BCDCE302B813C25005159BE /* GooglePlaces */,
 			);
 			productName = AvenuesApp;
 			productReference = 8BAF93972B7C0AFC008C4782 /* AvenuesApp.app */;
@@ -458,7 +447,7 @@
 			mainGroup = 8BAF938E2B7C0AFC008C4782;
 			packageReferences = (
 				8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
-				8BE3B18D2B800D3100A8819E /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				8BCDCE2F2B813C25005159BE /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
 			);
 			productRefGroup = 8BAF93982B7C0AFC008C4782 /* Products */;
 			projectDirPath = "";
@@ -474,7 +463,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BAF93A22B7C0AFE008C4782 /* Preview Assets.xcassets in Resources */,
 				8BAF939F2B7C0AFE008C4782 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,6 +707,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8BCDCE2F2B813C25005159BE /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
 		8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
@@ -727,17 +723,14 @@
 				minimumVersion = 8.4.0;
 			};
 		};
-		8BE3B18D2B800D3100A8819E /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.3.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8BCDCE302B813C25005159BE /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BCDCE2F2B813C25005159BE /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
 		8BE3B1812B7FF22D00A8819E /* GoogleMaps */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
@@ -757,11 +750,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
 			productName = GoogleMapsM4B;
-		};
-		8BE3B18E2B800D3200A8819E /* GooglePlaces */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8BE3B18D2B800D3100A8819E /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
-			productName = GooglePlaces;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

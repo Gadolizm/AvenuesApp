@@ -16,7 +16,7 @@ struct AvenuesAppApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            MainTabbedView()
+            RegistrationView()
         }
     }
 }
