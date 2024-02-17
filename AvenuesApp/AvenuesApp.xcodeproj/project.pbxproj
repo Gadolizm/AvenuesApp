@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAF939B2B7C0AFC008C4782 /* AvenuesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF939A2B7C0AFC008C4782 /* AvenuesAppApp.swift */; };
+		8BAF939D2B7C0AFC008C4782 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF939C2B7C0AFC008C4782 /* HomeView.swift */; };
+		8BAF939F2B7C0AFE008C4782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAF939E2B7C0AFE008C4782 /* Assets.xcassets */; };
+		8BAF93A22B7C0AFE008C4782 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAF93A12B7C0AFE008C4782 /* Preview Assets.xcassets */; };
+		8BAF93B52B7C0D77008C4782 /* ApiManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B42B7C0D77008C4782 /* ApiManagerType.swift */; };
+		8BAF93B72B7C0DAE008C4782 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B62B7C0DAE008C4782 /* ApiManager.swift */; };
+		8BAF93B92B7C0DD1008C4782 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */; };
+		8BAF93BC2B7C1A44008C4782 /* AvenuesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF93BB2B7C1A44008C4782 /* AvenuesDataModel.swift */; };
+		8BE3B17D2B7F8EB400A8819E /* AvenueListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B17C2B7F8EB400A8819E /* AvenueListItemView.swift */; };
+		8BE3B17F2B7F8EBF00A8819E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B17E2B7F8EBF00A8819E /* MapView.swift */; };
+		8BE3B1822B7FF22D00A8819E /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1812B7FF22D00A8819E /* GoogleMaps */; };
+		8BE3B1842B7FF22D00A8819E /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1832B7FF22D00A8819E /* GoogleMapsBase */; };
+		8BE3B1862B7FF22D00A8819E /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1852B7FF22D00A8819E /* GoogleMapsCore */; };
+		8BE3B1882B7FF22D00A8819E /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B1872B7FF22D00A8819E /* GoogleMapsM4B */; };
+		8BE3B18C2B7FFA8E00A8819E /* GoogleMapsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B18B2B7FFA8E00A8819E /* GoogleMapsProvider.swift */; };
+		8BE3B18F2B800D3200A8819E /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE3B18E2B800D3200A8819E /* GooglePlaces */; };
+		8BE3B1952B80BF8400A8819E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1942B80BF8400A8819E /* RegistrationView.swift */; };
+		8BE3B1982B80C07B00A8819E /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1972B80C07B00A8819E /* RegistrationViewModel.swift */; };
+		8BE3B19F2B80D7ED00A8819E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B19E2B80D7ED00A8819E /* LoginViewModel.swift */; };
+		8BE3B1A12B80D86200A8819E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1A02B80D86200A8819E /* LoginView.swift */; };
+		8BE3B1A82B80DF4300A8819E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1A72B80DF4300A8819E /* ProfileView.swift */; };
+		8BE3B1B02B80E26B00A8819E /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1AF2B80E26B00A8819E /* TermsAndConditionsView.swift */; };
+		8BE3B1B22B80EE4700A8819E /* VenueDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1B12B80EE4700A8819E /* VenueDetailsView.swift */; };
+		8BE3B1B72B811F7000A8819E /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1B62B811F7000A8819E /* MainTabbedView.swift */; };
+		8BE3B1BC2B811FBA00A8819E /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1BB2B811FBA00A8819E /* SideMenuView.swift */; };
+		8BE3B1BE2B81202A00A8819E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1BD2B81202A00A8819E /* SideMenu.swift */; };
+		8BE3B1C22B81205500A8819E /* SideMenuRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B1C12B81205500A8819E /* SideMenuRowType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BAF93972B7C0AFC008C4782 /* AvenuesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvenuesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAF939A2B7C0AFC008C4782 /* AvenuesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenuesAppApp.swift; sourceTree = "<group>"; };
+		8BAF939C2B7C0AFC008C4782 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8BAF939E2B7C0AFE008C4782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BAF93A12B7C0AFE008C4782 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BAF93B42B7C0D77008C4782 /* ApiManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManagerType.swift; sourceTree = "<group>"; };
+		8BAF93B62B7C0DAE008C4782 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8BAF93BA2B7C11EB008C4782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAF93BB2B7C1A44008C4782 /* AvenuesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenuesDataModel.swift; sourceTree = "<group>"; };
+		8BE3B17C2B7F8EB400A8819E /* AvenueListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenueListItemView.swift; sourceTree = "<group>"; };
+		8BE3B17E2B7F8EBF00A8819E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8BE3B18B2B7FFA8E00A8819E /* GoogleMapsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsProvider.swift; sourceTree = "<group>"; };
+		8BE3B1942B80BF8400A8819E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		8BE3B1972B80C07B00A8819E /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		8BE3B19E2B80D7ED00A8819E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8BE3B1A02B80D86200A8819E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8BE3B1A72B80DF4300A8819E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8BE3B1AF2B80E26B00A8819E /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		8BE3B1B12B80EE4700A8819E /* VenueDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsView.swift; sourceTree = "<group>"; };
+		8BE3B1B62B811F7000A8819E /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		8BE3B1BB2B811FBA00A8819E /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SideMenuView.swift; path = ../../../../../../../../Documents/SideMenuView.swift; sourceTree = "<group>"; };
+		8BE3B1BD2B81202A00A8819E /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		8BE3B1C12B81205500A8819E /* SideMenuRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAF93942B7C0AFC008C4782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE3B1822B7FF22D00A8819E /* GoogleMaps in Frameworks */,
+				8BE3B1862B7FF22D00A8819E /* GoogleMapsCore in Frameworks */,
+				8BE3B1882B7FF22D00A8819E /* GoogleMapsM4B in Frameworks */,
+				8BE3B18F2B800D3200A8819E /* GooglePlaces in Frameworks */,
+				8BE3B1842B7FF22D00A8819E /* GoogleMapsBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAF938E2B7C0AFC008C4782 = {
+			isa = PBXGroup;
+			children = (
+				8BAF93992B7C0AFC008C4782 /* AvenuesApp */,
+				8BE3B1C32B8130B400A8819E /* Helpers */,
+				8BAF93982B7C0AFC008C4782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAF93982B7C0AFC008C4782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93972B7C0AFC008C4782 /* AvenuesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAF93992B7C0AFC008C4782 /* AvenuesApp */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1912B80BF1400A8819E /* Registration */,
+				8BE3B1992B80D74700A8819E /* Login */,
+				8BAF93A82B7C0B3F008C4782 /* Home */,
+				8BE3B1B32B811F5100A8819E /* MainTabbedView */,
+				8BE3B1B82B811FA600A8819E /* SideMenuView */,
+				8BE3B1A22B80DD1200A8819E /* MyProfile */,
+				8BE3B1AC2B80E24200A8819E /* Terms & Conditions */,
+				8BAF93B32B7C0D63008C4782 /* NetworkLayer */,
+			);
+			path = AvenuesApp;
+			sourceTree = "<group>";
+		};
+		8BAF93A02B7C0AFE008C4782 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93A12B7C0AFE008C4782 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BAF93A82B7C0B3F008C4782 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93AA2B7C0B4F008C4782 /* Domain */,
+				8BAF93A92B7C0B4C008C4782 /* Presentaion */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8BAF93A92B7C0B4C008C4782 /* Presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93AD2B7C0B7F008C4782 /* View */,
+				8BAF93AC2B7C0B7D008C4782 /* ViewModel */,
+			);
+			path = Presentaion;
+			sourceTree = "<group>";
+		};
+		8BAF93AA2B7C0B4F008C4782 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93B02B7C0B9E008C4782 /* Entities */,
+				8BAF93AF2B7C0B9B008C4782 /* Interfaces */,
+				8BAF93AE2B7C0B99008C4782 /* Use Cases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8BAF93AC2B7C0B7D008C4782 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93B82B7C0DD1008C4782 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BAF93AD2B7C0B7F008C4782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF939C2B7C0AFC008C4782 /* HomeView.swift */,
+				8BE3B17E2B7F8EBF00A8819E /* MapView.swift */,
+				8BE3B17C2B7F8EB400A8819E /* AvenueListItemView.swift */,
+				8BE3B1B12B80EE4700A8819E /* VenueDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BAF93AE2B7C0B99008C4782 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		8BAF93AF2B7C0B9B008C4782 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		8BAF93B02B7C0B9E008C4782 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93BB2B7C1A44008C4782 /* AvenuesDataModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8BAF93B32B7C0D63008C4782 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93B42B7C0D77008C4782 /* ApiManagerType.swift */,
+				8BAF93B62B7C0DAE008C4782 /* ApiManager.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		8BE3B1912B80BF1400A8819E /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1922B80BF5200A8819E /* Presentaion */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		8BE3B1922B80BF5200A8819E /* Presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1962B80C06400A8819E /* ViewModel */,
+				8BE3B1932B80BF5F00A8819E /* View */,
+			);
+			path = Presentaion;
+			sourceTree = "<group>";
+		};
+		8BE3B1932B80BF5F00A8819E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1942B80BF8400A8819E /* RegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE3B1962B80C06400A8819E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1972B80C07B00A8819E /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BE3B1992B80D74700A8819E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B19A2B80D7AC00A8819E /* Presentation */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8BE3B19A2B80D7AC00A8819E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B19C2B80D7BB00A8819E /* ViewModel */,
+				8BE3B19B2B80D7B900A8819E /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8BE3B19B2B80D7B900A8819E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1A02B80D86200A8819E /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE3B19C2B80D7BB00A8819E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B19E2B80D7ED00A8819E /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BE3B1A22B80DD1200A8819E /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1A42B80DD2E00A8819E /* Presentaion */,
+				8BE3B1A32B80DD2A00A8819E /* New Group */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		8BE3B1A32B80DD2A00A8819E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8BE3B1A42B80DD2E00A8819E /* Presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1A62B80DD3E00A8819E /* ViewModel */,
+				8BE3B1A52B80DD3B00A8819E /* View */,
+			);
+			path = Presentaion;
+			sourceTree = "<group>";
+		};
+		8BE3B1A52B80DD3B00A8819E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1A72B80DF4300A8819E /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE3B1A62B80DD3E00A8819E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8BE3B1AC2B80E24200A8819E /* Terms & Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1AD2B80E25400A8819E /* Presentaion */,
+			);
+			path = "Terms & Conditions";
+			sourceTree = "<group>";
+		};
+		8BE3B1AD2B80E25400A8819E /* Presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1AE2B80E26000A8819E /* View */,
+			);
+			path = Presentaion;
+			sourceTree = "<group>";
+		};
+		8BE3B1AE2B80E26000A8819E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1AF2B80E26B00A8819E /* TermsAndConditionsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE3B1B32B811F5100A8819E /* MainTabbedView */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1B42B811F5C00A8819E /* Presentation */,
+			);
+			path = MainTabbedView;
+			sourceTree = "<group>";
+		};
+		8BE3B1B42B811F5C00A8819E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1B52B811F6500A8819E /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8BE3B1B52B811F6500A8819E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1B62B811F7000A8819E /* MainTabbedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE3B1B82B811FA600A8819E /* SideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1BF2B81203B00A8819E /* Domain */,
+				8BE3B1B92B811FAB00A8819E /* Presentation */,
+			);
+			path = SideMenuView;
+			sourceTree = "<group>";
+		};
+		8BE3B1B92B811FAB00A8819E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1BA2B811FB300A8819E /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8BE3B1BA2B811FB300A8819E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1BB2B811FBA00A8819E /* SideMenuView.swift */,
+				8BE3B1BD2B81202A00A8819E /* SideMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE3B1BF2B81203B00A8819E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1C02B81204300A8819E /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8BE3B1C02B81204300A8819E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B1C12B81205500A8819E /* SideMenuRowType.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8BE3B1C32B8130B400A8819E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8BAF93BA2B7C11EB008C4782 /* Info.plist */,
+				8BAF939A2B7C0AFC008C4782 /* AvenuesAppApp.swift */,
+				8BE3B18B2B7FFA8E00A8819E /* GoogleMapsProvider.swift */,
+				8BAF939E2B7C0AFE008C4782 /* Assets.xcassets */,
+				8BAF93A02B7C0AFE008C4782 /* Preview Content */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAF93962B7C0AFC008C4782 /* AvenuesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAF93A52B7C0AFE008C4782 /* Build configuration list for PBXNativeTarget "AvenuesApp" */;
+			buildPhases = (
+				8BAF93932B7C0AFC008C4782 /* Sources */,
+				8BAF93942B7C0AFC008C4782 /* Frameworks */,
+				8BAF93952B7C0AFC008C4782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvenuesApp;
+			packageProductDependencies = (
+				8BE3B1812B7FF22D00A8819E /* GoogleMaps */,
+				8BE3B1832B7FF22D00A8819E /* GoogleMapsBase */,
+				8BE3B1852B7FF22D00A8819E /* GoogleMapsCore */,
+				8BE3B1872B7FF22D00A8819E /* GoogleMapsM4B */,
+				8BE3B18E2B800D3200A8819E /* GooglePlaces */,
+			);
+			productName = AvenuesApp;
+			productReference = 8BAF93972B7C0AFC008C4782 /* AvenuesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAF938F2B7C0AFC008C4782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8BAF93962B7C0AFC008C4782 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8BAF93922B7C0AFC008C4782 /* Build configuration list for PBXProject "AvenuesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BAF938E2B7C0AFC008C4782;
+			packageReferences = (
+				8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				8BE3B18D2B800D3100A8819E /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = 8BAF93982B7C0AFC008C4782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BAF93962B7C0AFC008C4782 /* AvenuesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BAF93952B7C0AFC008C4782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAF93A22B7C0AFE008C4782 /* Preview Assets.xcassets in Resources */,
+				8BAF939F2B7C0AFE008C4782 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAF93932B7C0AFC008C4782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAF93B92B7C0DD1008C4782 /* HomeViewModel.swift in Sources */,
+				8BE3B19F2B80D7ED00A8819E /* LoginViewModel.swift in Sources */,
+				8BE3B1BC2B811FBA00A8819E /* SideMenuView.swift in Sources */,
+				8BE3B1B72B811F7000A8819E /* MainTabbedView.swift in Sources */,
+				8BE3B1B22B80EE4700A8819E /* VenueDetailsView.swift in Sources */,
+				8BE3B1C22B81205500A8819E /* SideMenuRowType.swift in Sources */,
+				8BE3B1982B80C07B00A8819E /* RegistrationViewModel.swift in Sources */,
+				8BE3B17D2B7F8EB400A8819E /* AvenueListItemView.swift in Sources */,
+				8BAF93BC2B7C1A44008C4782 /* AvenuesDataModel.swift in Sources */,
+				8BAF939D2B7C0AFC008C4782 /* HomeView.swift in Sources */,
+				8BE3B1BE2B81202A00A8819E /* SideMenu.swift in Sources */,
+				8BAF93B72B7C0DAE008C4782 /* ApiManager.swift in Sources */,
+				8BE3B18C2B7FFA8E00A8819E /* GoogleMapsProvider.swift in Sources */,
+				8BE3B1A82B80DF4300A8819E /* ProfileView.swift in Sources */,
+				8BAF93B52B7C0D77008C4782 /* ApiManagerType.swift in Sources */,
+				8BE3B17F2B7F8EBF00A8819E /* MapView.swift in Sources */,
+				8BE3B1A12B80D86200A8819E /* LoginView.swift in Sources */,
+				8BAF939B2B7C0AFC008C4782 /* AvenuesAppApp.swift in Sources */,
+				8BE3B1952B80BF8400A8819E /* RegistrationView.swift in Sources */,
+				8BE3B1B02B80E26B00A8819E /* TermsAndConditionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BAF93A32B7C0AFE008C4782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BAF93A42B7C0AFE008C4782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BAF93A62B7C0AFE008C4782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvenuesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 96CZXG77ZE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvenuesApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gadolizm.AvenuesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BAF93A72B7C0AFE008C4782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvenuesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 96CZXG77ZE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvenuesApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gadolizm.AvenuesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAF93922B7C0AFC008C4782 /* Build configuration list for PBXProject "AvenuesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAF93A32B7C0AFE008C4782 /* Debug */,
+				8BAF93A42B7C0AFE008C4782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAF93A52B7C0AFE008C4782 /* Build configuration list for PBXNativeTarget "AvenuesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAF93A62B7C0AFE008C4782 /* Debug */,
+				8BAF93A72B7C0AFE008C4782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		8BE3B18D2B800D3100A8819E /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BE3B1812B7FF22D00A8819E /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		8BE3B1832B7FF22D00A8819E /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		8BE3B1852B7FF22D00A8819E /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		8BE3B1872B7FF22D00A8819E /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE3B1802B7FF22D00A8819E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+		8BE3B18E2B800D3200A8819E /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE3B18D2B800D3100A8819E /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8BAF938F2B7C0AFC008C4782 /* Project object */;
+}
